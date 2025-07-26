@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jerry's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Jerry</h1>
+      <p>Aspiring Full Stack Developer</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m learning web development and passionate about building websites and applications using HTML, CSS, JavaScript, and React.</p>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React (Basic)</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>My own responsive portfolio made with HTML, CSS, and JS.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do List App</h3>
+        <p>A simple JavaScript to-do list app with local storage.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: jerry@example.com</p>
+      <button onclick="showMessage()">Say Hello</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jerry | All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
